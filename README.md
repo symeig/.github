@@ -6,13 +6,13 @@ digits $\gets \text{batchsize}\*\(\text{stagger}+1\)$
 indicatorvars $= \[\text{base}^{\lceil \frac{\text{digits}}{2} \rceil - \text{stagger}} \\; \text{base}^{\lceil \frac{\text{digits}}{2} \rceil - 2*\text{stagger}} \\; \dots \\; \text{base}^{-\lfloor \frac{\text{digits}}{2} \rfloor}\]$   
 assign A, batch size, stagger, precision  
 .real_vals $\gets \[ \dots \]$  
-map $\gets$ \{symbols $\rightarrow$ random_reals\}  
+map $\gets \{\text{symbols} $\rightarrow$ \text{randomreals}\}  
 coeffs $:= \[\]$  
 for \(i=1 to numbatches\):  
-&nbsp;&nbsp;&nbsp;&nbsp; $\text{mapcurr} := \text{map.copy()}$  
-$\text{mapcurr{[}}i*\text{batchsize}, \min{\text{(n}, (i+1)*\text{batchsize)}}\text{{]}} += \text{expvars}$  
+&nbsp;&nbsp;&nbsp;&nbsp; mapcurr $:=\text{map.copy()}$  
+mapcurr$\[i*\text{batchsize}, \min{\(\text{n}, \(i+1\)\*\text{batchsize}\)}\] += \text{expvars}$  
 $\text{A}_{i} := \text{mapcurr(A)}$  
-$\sigma$ $:= eig(\text{A}_{i}) + \text{midpoint}$
+$\sigma := eig(\text{A}_{i}) + \text{midpoint}$
 
 <p style="text-align: left;">
 $$
