@@ -1,4 +1,4 @@
 <p align="left">
-$ \lambda $ \newline
+$ \lambda $ \\newline
 $ \pi $
 </p>
