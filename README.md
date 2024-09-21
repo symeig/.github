@@ -1,4 +1,4 @@
-<p align="left">
+<p align=left>
 $$
 \begin{align*}
 \text{precision, extraction\_params (midpoint, midpoint\_value), digits} := \dots \\
