@@ -2,7 +2,7 @@ like in $1(23)4$
 like in $\pi$  
 
 precision, extraction_params midpoint, midpoint_value, digits $\gets \dots$  
-digits $\gets \text{batchsize}*(\text{stagger} + 1)$  
+digits $\gets$ batchsize$*($stagger$+1)$    
 assign A, batch size, stagger, precision  
 .indicator_vars $\gets \begin{bmatrix}\text{base}^{\ceil{\frac{\text{digits}}{2}} - \text{stagger}} & \text{base}^{\ceil{\frac{\text{digits}}{2}} - 2*\text{stagger}} & \dots & \text{base}^{-\floor{\frac{\text{digits}} {2}}}\end{bmatrix}$  
 .real_vals} $\gets \begin{bmatrix} \dots \end{bmatrix}$  
