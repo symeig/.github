@@ -1,3 +1,5 @@
+like in $1(23)4$
+
 <p style="text-align: left;">
 $$
 \begin{align\\*}
