@@ -24,6 +24,6 @@ $$
 </p>
 
 <p style="text-align: left;">
-$ \lambda $  <br> 
-$ \pi $
+$$ \lambda $$  <br> 
+$$ \pi $$
 </p>
