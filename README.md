@@ -1,9 +1,9 @@
 <p style="text-align: left;">
 $$
-\begin{align\*}
+\begin{align\\*}
 \lambda \\
 \pi 0kq340k30tk
-\end{align\*}
+\end{align\\*}
 $$
 </p>
 
