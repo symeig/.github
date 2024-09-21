@@ -32,9 +32,12 @@ $$
 $$
 </p>
 
-<p style="text-align: left;">
-$$ \lambda $$
-<br>
-$$ 2304923409 * \pi $$
+<p align="left">
+$$
+\begin{aligned}
+\lambda \\
+2304923409 * \pi
+\end{aligned}
+$$
 </p>
 
