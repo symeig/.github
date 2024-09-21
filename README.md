@@ -6,10 +6,18 @@ $$
 \end{align*}
 $$
 </p>
-<p align='right'>
+
+<p align="right">
   $$
 \begin{align*}
-\lambda \\
+\lambda
+\end{align*}
+$$
+</p>
+
+<p align="right">
+  $$
+\begin{align*}
 \pi 0kq340k30tk
 \end{align*}
 $$
