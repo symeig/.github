@@ -6,7 +6,7 @@ $\text{ep.indicatorvars} := \[\text{base}^{\lceil \frac{\text{digits}}{2} \rceil
 $\text{ep.realvals} \gets \[ \dots \]$  
 $\text{map} \gets \\{\text{symbols} \rightarrow \text{randomreals}\\}$  
 $\text{coeffs} := \[\]$  
-$\text{for }\(i=1 \text{ to numbatches}\):
+$\text{for }\(i=1 \text{ to }\lceil \frac{\text{n}}{\text{batchsize}} \rceil\):$  
 &nbsp;&nbsp;&nbsp;&nbsp; $\text{mapcurr} := \text{map.copy()}$  
 &nbsp;&nbsp;&nbsp;&nbsp; $\text{mapcurr}\[i*\text{batchsize}, \min{\(\text{n}, \(i+1\)\*\text{batchsize}\)}\] \text{ += expvars}$  
 &nbsp;&nbsp;&nbsp;&nbsp; $A_{i} := \text{mapcurr(A)}$  
