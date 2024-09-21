@@ -10,47 +10,10 @@ map $\gets \\{\text{symbols} \rightarrow \text{randomreals}\\}$
 coeffs $:= \[\]$  
 for \(i=1 to numbatches\):  
 &nbsp;&nbsp;&nbsp;&nbsp; mapcurr $:=\text{map.copy()}$  
-&nbsp;&nbsp;&nbsp;&nbsp; mapcurr $\[i*\text{batchsize}, \min{\(\text{n}, \(i+1\)\*\text{batchsize}\)}\] += \text{expvars}$  
-&nbsp;&nbsp;&nbsp;&nbsp; A$_{i} := \text{mapcurr(A)}$  
+&nbsp;&nbsp;&nbsp;&nbsp; mapcurr $\[i*\text{batchsize}, \min{\(\text{n}, \(i+1\)\*\text{batchsize}\)}\] +\!\!\! = \text{expvars}$  
+&nbsp;&nbsp;&nbsp;&nbsp; A $_{i} := \text{mapcurr(A)}$  
+&nbsp;&nbsp;&nbsp;&nbsp; $\sigma$  
+&nbsp;&nbsp;&nbsp;&nbsp; $\text{A}_{i}$  
+&nbsp;&nbsp;&nbsp;&nbsp; $A_{i}$    
 &nbsp;&nbsp;&nbsp;&nbsp; $\sigma := eig(\text{A}_{i}) + \text{midpoint}$
-
-<p style="text-align: left;">
-$$
-\begin{align\\*}
-\lambda \\
-\pi 0kq340k30tk
-\end{align\\*}
-$$
-</p>
-
-<p align="right">
-  $$
-\begin{align*}
-\lambda
-\end{align*}
-$$
-</p>
-
-<p align="right">
-  $$
-\begin{align*}
-\pi 0kq340k30tk
-\end{align*}
-$$
-</p>
-
-<p style="text-align: left;">
-$$
-\begin{array}{l}
-\lambda \\
-\pi okaefkowfofkw
-\end{array}
-$$
-</p>
-
-<p align="left">
-$$ \lambda $$
-<br>
-$$ 2304923409 * \pi $$
-</p>
 
