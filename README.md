@@ -1,0 +1,1 @@
+<p align="center"><img src="https://rawgit.com/jonluntzel/PROJECT/None/svgs/d2de1b66b2e39c6effe29813c6ec43ad.svg?invert_in_darkmode" align=middle width=449.81862255pt height=14.611878599999999pt/></p>
