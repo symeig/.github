@@ -7,9 +7,7 @@ $\text{map} \gets \\{\text{symbols} \rightarrow \text{randomreals}\\}$
 $\text{coeffs} := \[\]$  
 $\text{for }\(i=1 \text{to numbatches}\):$  
 &nbsp;&nbsp;&nbsp;&nbsp; $\text{mapcurr} := \text{map.copy()}$  
-&nbsp;&nbsp;&nbsp;&nbsp; $\text{mapcurr}\[i*\text{batchsize}, \min{\(\text{n}, \(i+1\)\*\text{batchsize}\)}\] \mathrel{+}= \text{expvars}$  
-&nbsp;&nbsp;&nbsp;&nbsp; mapcurr $\[i*\text{batchsize}, \min{\(\text{n}, \(i+1\)\*\text{batchsize}\)}\] +\\! = \text{expvars}$  
-
+&nbsp;&nbsp;&nbsp;&nbsp; $\text{mapcurr}\[i*\text{batchsize}, \min{\(\text{n}, \(i+1\)\*\text{batchsize}\)}\] \mathrel{+}{=} \text{expvars}$  
 &nbsp;&nbsp;&nbsp;&nbsp; $A_{i} := \text{mapcurr(A)}$  
 &nbsp;&nbsp;&nbsp;&nbsp; $\sigma := eig(A_{i}) + \text{midpoint}$  
 &nbsp;&nbsp;&nbsp;&nbsp; $\text{coeffs.insert}\(\[\text{digits}\(\sigma_{j}\) - \text{midpointvalue for j in range\(n\)}\]\)$  
