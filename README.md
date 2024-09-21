@@ -1,6 +1,5 @@
 $\text{INPUTS A, batchsize, stagger}$ 
 $\text{n, extractionparams (ep), midpoint, midpointvalue, digits, symbols} := \dots$  
-$\text{numbatches} = \lceil \frac{\text{n}}{\text{batchsize}} \rceil$  
 $\text{digits} := \text{batchsize}\*\(\text{stagger}+1\)$  
 $\text{ep.indicatorvars} := \[\text{base}^{\lceil \frac{\text{digits}}{2} \rceil - \text{stagger}} \\; \text{base}^{\lceil \frac{\text{digits}}{2} \rceil - 2*\text{stagger}} \\; \dots \\; \text{base}^{-\lfloor \frac{\text{digits}}{2} \rfloor}\]$    
 $\text{ep.realvals} \gets \[ \dots \]$  
