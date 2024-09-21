@@ -1,4 +1,4 @@
-$\text{eig(A, batchsize, stagger): }$  
+$\text{eig\(}A\text{, batchsize, stagger\): }$  
 &nbsp;&nbsp;&nbsp;&nbsp; $\text{n, midpoint, midpointvalue, digits, symbols, realvals} := \dots$  
 &nbsp;&nbsp;&nbsp;&nbsp; $\text{digits} := \text{batchsize}\*\(\text{stagger}+1\)$  
 &nbsp;&nbsp;&nbsp;&nbsp; $\text{indicatorvars} := \[\text{base}^{\lceil \frac{\text{digits}}{2} \rceil - \text{stagger}} \\; \text{base}^{\lceil \frac{\text{digits}}{2} \rceil - 2*\text{stagger}} \\; \dots \\; \text{base}^{-\lfloor \frac{\text{digits}}{2} \rfloor}\]$    
