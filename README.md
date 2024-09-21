@@ -1,8 +1,3 @@
-\newcommand{\switch}{%
-  \mathcode`+=\numexpr\mathcode`+ + "1000\relax % turn + into a relation
-  \mathcode`*=\numexpr\mathcode`* + "1000\relax
-}
-
 $\text{precision, extractionparams midpoint, midpointvalue, digits} \gets \dots$  
 $\text{digits} \gets \text{batchsize}\*\(\text{stagger}+1\)$  
 $\text{indicatorvars} = \[\text{base}^{\lceil \frac{\text{digits}}{2} \rceil - \text{stagger}} \\; \text{base}^{\lceil \frac{\text{digits}}{2} \rceil - 2*\text{stagger}} \\; \dots \\; \text{base}^{-\lfloor \frac{\text{digits}}{2} \rfloor}\]$   
@@ -12,7 +7,7 @@ $\text{map} \gets \\{\text{symbols} \rightarrow \text{randomreals}\\}$
 $\text{coeffs} := \[\]$  
 $\text{for }\(i=1 \text{to numbatches}\):$  
 &nbsp;&nbsp;&nbsp;&nbsp; $\text{mapcurr} := \text{map.copy()}$  
-&nbsp;&nbsp;&nbsp;&nbsp; $\text{mapcurr}\[i*\text{batchsize}, \min{\(\text{n}, \(i+1\)\*\text{batchsize}\)}\] \begingroup\switch a+=b\endgroup \text{expvars}$  
+&nbsp;&nbsp;&nbsp;&nbsp; $\text{mapcurr}\[i*\text{batchsize}, \min{\(\text{n}, \(i+1\)\*\text{batchsize}\)}\] \text{+=} \text{expvars}$  
 &nbsp;&nbsp;&nbsp;&nbsp; $A_{i} := \text{mapcurr(A)}$  
 &nbsp;&nbsp;&nbsp;&nbsp; $\sigma := eig(A_{i}) + \text{midpoint}$  
 &nbsp;&nbsp;&nbsp;&nbsp; $\text{coeffs.insert}\(\[\text{digits}\(\sigma_{j}\) - \text{midpointvalue for j in range\(n\)}\]\)$  
