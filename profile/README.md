@@ -1,4 +1,4 @@
-# symeig: an organization based around retrieving spectral information quickly
+# symeig: retrieving spectral information quickly
 (public view from .github repo)  
 $\text{eig\(}A\text{, batchsize, stagger\): }$    
 &nbsp;&nbsp;&nbsp;&nbsp; $n\text{, midpoint, midpointvalue, symbols} := \dots$  
