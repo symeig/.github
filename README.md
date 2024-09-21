@@ -34,9 +34,9 @@ $$
 
 <p style="text-align: left;">
 $$
-\begin{array}{l}
-\hspace{0pt} \lambda \\
-\hspace{0pt} \pi okokkokok
-\end{array}
+\begin{aligned}
+\lambda \\
+2304923409 * \pi
+\end{aligned}
 $$
 </p>
