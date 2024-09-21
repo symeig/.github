@@ -1,4 +1,6 @@
-<p style='text-align: right;'> 
-$$ \pi $$ \\
-$$ \pi $$
+<p style="text-align: left;">
+$$
+\lambda \\
+\pi
+$$
 </p>
