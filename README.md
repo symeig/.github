@@ -10,9 +10,9 @@ map $\gets \\{\text{symbols} \rightarrow \text{randomreals}\\}$
 coeffs $:= \[\]$  
 for \(i=1 to numbatches\):  
 &nbsp;&nbsp;&nbsp;&nbsp; mapcurr $:=\text{map.copy()}$  
-mapcurr$\[i*\text{batchsize}, \min{\(\text{n}, \(i+1\)\*\text{batchsize}\)}\] += \text{expvars}$  
-$\text{A}_{i} := \text{mapcurr(A)}$  
-$\sigma := eig(\text{A}_{i}) + \text{midpoint}$
+&nbsp;&nbsp;&nbsp;&nbsp; mapcurr$\[i*\text{batchsize}, \min{\(\text{n}, \(i+1\)\*\text{batchsize}\)}\] += \text{expvars}$  
+&nbsp;&nbsp;&nbsp;&nbsp; $\text{A}_{i} := \text{mapcurr(A)}$  
+&nbsp;&nbsp;&nbsp;&nbsp; $\sigma := eig(\text{A}_{i}) + \text{midpoint}$
 
 <p style="text-align: left;">
 $$
