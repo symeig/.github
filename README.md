@@ -22,3 +22,8 @@ $$
 \end{align*}
 $$
 </p>
+
+<p style="text-align: left;">
+$ \lambda $  <br> 
+$ \pi $
+</p>
