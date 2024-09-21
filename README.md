@@ -24,6 +24,10 @@ $$
 </p>
 
 <p style="text-align: left;">
-$ \lambda $  <br> 
-$ \pi $
+$$
+\begin{array}{l}
+\lambda \\
+\pi
+\end{array}
+$$
 </p>
