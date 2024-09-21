@@ -2,7 +2,7 @@ like in $1(23)4$
 like in $\pi$  
 
 precision, extraction_params midpoint, midpoint_value, digits $\gets \dots$  
-digits $\gets$ batchsize*stagger $+1$  
+digits $\gets$ batchsize\*stagger $+1$  
 $\text{indicatorvars} = \[\text{base}^{\lceil \frac{\text{digits}}{2} \rceil - \text{stagger}} \\; \text{base}^{\lceil \frac{\text{digits}}{2} \rceil - 2*\text{stagger}} \\; \dots \\; \text{base}^{-\lfloor \frac{\text{digits}}{2} \rfloor}\]$   
 assign A, batch size, stagger, precision  
 .real_vals $\gets \[ \dots \]$  
