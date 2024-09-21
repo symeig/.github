@@ -6,7 +6,7 @@ digits $\gets \text{batchsize}\*\(\text{stagger}+1\)$
 indicatorvars $= \[\text{base}^{\lceil \frac{\text{digits}}{2} \rceil - \text{stagger}} \\; \text{base}^{\lceil \frac{\text{digits}}{2} \rceil - 2*\text{stagger}} \\; \dots \\; \text{base}^{-\lfloor \frac{\text{digits}}{2} \rfloor}\]$   
 assign A, batch size, stagger, precision  
 .real_vals $\gets \[ \dots \]$  
-map $\gets \{\text{symbols} \rightarrow \text{randomreals}\}$
+map $\gets \\{\text{symbols} \rightarrow \text{randomreals}\\}$  
 coeffs $:= \[\]$  
 for \(i=1 to numbatches\):  
 &nbsp;&nbsp;&nbsp;&nbsp; mapcurr $:=\text{map.copy()}$  
