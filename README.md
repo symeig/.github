@@ -8,7 +8,7 @@ assign A, batch size, stagger, precision
 .real_vals $\gets \[ \dots \]$  
 map $\gets$ \{symbols $\rightarrow$ random_reals\}  
 coeffs $:= \[\]$  
-for (i=1 to num_batches):
+for \(i=1 to num_batches\):
 &nbsp;&nbsp;&nbsp;&nbsp; $\text{map\_curr} := \text{map.copy()}$
 $\text{map\_curr{[}}i*\text{batch size}, \min{\text{(n}, (i+1)*\text{batch\_size)}}\text{{]}} \mathrel{+}= \text{exp\_vars}$
 $\text{A}_{i} := \text{map curr(A)}$
