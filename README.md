@@ -1,4 +1,4 @@
-$\text{precision, extraction}$_$params midpoint, midpointvalue, digits} \gets \dots$  
+$\text{precision, extraction}$\_$\text{params midpoint, midpointvalue, digits} \gets \dots$  
 $\text{digits} \gets \text{batchsize}\*\(\text{stagger}+1\)$  
 $\text{indicatorvars} = \[\text{base}^{\lceil \frac{\text{digits}}{2} \rceil - \text{stagger}} \\; \text{base}^{\lceil \frac{\text{digits}}{2} \rceil - 2*\text{stagger}} \\; \dots \\; \text{base}^{-\lfloor \frac{\text{digits}}{2} \rfloor}\]$   
 $\text{assign A, batch size, stagger, precision}$  
