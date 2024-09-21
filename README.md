@@ -1,4 +1,4 @@
-<p align="left">
-$ \lambda $ \\newline
-$ \pi $
+<p style='text-align: right;'> 
+$$ \pi $$ \\
+$$ \pi $$
 </p>
