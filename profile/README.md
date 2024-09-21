@@ -15,6 +15,3 @@ $\text{eig\(}A\text{, batchsize, stagger\): }$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{coeffs.insert}\(\[\text{digits}\(\sigma_{j}\) - \text{midpointvalue for } j \text{ in range}\(n\)\]\)$  
   
 &nbsp;&nbsp;&nbsp;&nbsp; $\text{coeffs} := \[vec\(\text{coeffs}\[:,0\]\), \\; \dots, \\; vec\(\text{coeffs}\[:,n-1\]\)\]$
-
-  
-&nbsp;&nbsp;&nbsp;&nbsp; $\text{coeffs} := \[vec\(\text{coeffs}\[:,0\]\), \\; \dots, \\; vec\(\text{coeffs}\[:,n-1\]\)\]$
