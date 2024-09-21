@@ -5,7 +5,7 @@ $\text{assign A, batch size, stagger, precision}$
 $\text{realvals} \gets \[ \dots \]$  
 $\text{map} \gets \\{\text{symbols} \rightarrow \text{randomreals}\\}$  
 $\text{coeffs} := \[\]$  
-$\text{for }\(i=1 \text{to numbatches}\):  
+$\text{for }\(i=1 \text{to numbatches}\):$  
 &nbsp;&nbsp;&nbsp;&nbsp; $\text{mapcurr} := \text{map.copy()}$  
 &nbsp;&nbsp;&nbsp;&nbsp; $\text{mapcurr}\[i*\text{batchsize}, \min{\(\text{n}, \(i+1\)\*\text{batchsize}\)}\] +\!\!\! = \text{expvars}$  
 &nbsp;&nbsp;&nbsp;&nbsp; $A_{i} := \text{mapcurr(A)}$  
