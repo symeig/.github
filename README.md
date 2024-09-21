@@ -31,3 +31,12 @@ $$
 \end{array}
 $$
 </p>
+
+<p style="text-align: left;">
+$$
+\begin{array}{l}
+\hspace{0pt} \lambda \\
+\hspace{0pt} \pi okokkokok
+\end{array}
+$$
+</p>
