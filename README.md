@@ -1,5 +1,5 @@
-like in $1(23)4 \\ \pi$
-
+like in $1(23)4$
+like in $\pi$
 <p style="text-align: left;">
 $$
 \begin{align\\*}
