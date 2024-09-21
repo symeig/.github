@@ -1,6 +1,6 @@
-<p align=left>
+<div style="text-align: left;">
 $$
-\begin{align*}
+\begin{aligned}
 \text{precision, extraction\_params (midpoint, midpoint\_value), digits} := \dots \\
 \text{digits} \gets \text{batch size} * (\text{stagger} + 1) \\
 \text{assign A, batch size, stagger, precision} \\
@@ -8,6 +8,6 @@ $$
 \text{.real\_vals} := \begin{bmatrix} \hdots \end{bmatrix} \\
 \text{map} := \text{\{symbols} \rightarrow \text{random\_reals\}} \\
 \text{coeffs} := \text{{[]}} \\
-\end{align*}
+\end{aligned}
 $$
-</p>
+</div>
