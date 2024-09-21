@@ -33,11 +33,8 @@ $$
 </p>
 
 <p align="left">
-$$
-\begin{aligned}
-\lambda \\
-2304923409 * \pi
-\end{aligned}
-$$
+$$ \lambda $$
+<br>
+$$ 2304923409 * \pi $$
 </p>
 
