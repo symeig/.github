@@ -19,6 +19,8 @@ $\text{eig\(}A\text{, batchsize, stagger\): }$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\sigma := eig(A_{i}) + \text{midpoint}$  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{coeffs.insert}\(\[\text{digits}\(\sigma_{j}\) - \text{midpointvalue for } j \text{ in range}\(n\)\]\)$  
   
+&nbsp;&nbsp;&nbsp;&nbsp; $\text{return } \[vec\(\text{coeffs}\[:,0\]\), \\; \dots, \\; vec\(\text{coeffs}\[:,n-1\]\)\]$  
+  
 ## $\textbf{Runtime Comparison}$  
 
 ![Image Description](runtime_gh.jpg)
