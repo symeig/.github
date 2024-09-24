@@ -21,7 +21,7 @@ $\text{eig\(}A\text{, batchsize, stagger\): }$
   
 ## $\textbf{Runtime Comparison}$  
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fbc516ea-da83-458a-9793-508517dddc1b](https://github.com/user-attachments/assets/c87090bb-650a-4fdd-aabd-f6ac2dcfde8d">
+  ![Image Description](runtime_gh.jpg)
 </p>
 
 
