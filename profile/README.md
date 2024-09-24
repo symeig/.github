@@ -20,9 +20,8 @@ $\text{eig\(}A\text{, batchsize, stagger\): }$
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\text{coeffs.insert}\(\[\text{digits}\(\sigma_{j}\) - \text{midpointvalue for } j \text{ in range}\(n\)\]\)$  
   
 ## $\textbf{Runtime Comparison}$  
-<p align="center">
-  ![Image Description](runtime_gh.jpg)
-</p>
+
+![Image Description](runtime_gh.jpg)
 
 
 Please cite us:  
