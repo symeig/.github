@@ -24,11 +24,12 @@ $\text{eig\(}A\text{, batchsize, stagger\): }$
 ![Image Description](runtime_gh.jpg)
 
 
-Please cite us:  
+Please cite us (in review):  
 ```bibtex
 @misc{xxxx.xxxxx,
-  Author = {Jonny Luntzel, Abraham Miller},
   Title = {Fast Symbolic Integer-Linear Spectra},
+  Author = {Jonny Luntzel, Abraham Miller},
   Year = {2024},
+  PrimaryClass={cs.MS}
   Eprint = {arXiv:xxxx.xxxxx},
 }
