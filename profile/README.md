@@ -26,7 +26,7 @@ $\text{eig\(}A\text{, batchsize, stagger\): }$
 ![Image Description](runtime_gh.jpg)
 
 
-Please cite us (in review):  
+Please cite us (in review - use this webpage in the meantime (https://github.com/symeig)):  
 ```bibtex
 @misc{xxxx.xxxxx,
   Title = {Fast Symbolic Integer-Linear Spectra},
