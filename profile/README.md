@@ -26,12 +26,12 @@ $\text{main\(}A\text{, batchsize, stagger\): }$
 ![Image Description](runtime_gh.jpg)
 
 
-Please cite us (in review - use this webpage in the meantime (https://github.com/symeig)):  
+Please cite this project (paper in review):  
 ```bibtex
-@misc{xxxx.xxxxx,
-  Title = {Fast Symbolic Integer-Linear Spectra},
-  Author = {Jonny Luntzel, Abraham Miller},
-  Year = {2024},
-  PrimaryClass={cs.MS}
-  Eprint = {arXiv:xxxx.xxxxx},
+@misc{xx,
+  title = {Fast Symbolic Integer-Linear Spectra},
+  author={Luntzel, Jonny and Miller, Abraham},
+  year={2024},
+  note = {Accessed: (Use the date of access)},
+  howpublished = {\url{https://github.com/symeig}}
 }
