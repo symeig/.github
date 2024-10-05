@@ -31,7 +31,7 @@ Note: Eigenvalue solver expects $\lambda$ coefficients to be in $\[-4, \\; 5\]$ 
 Please cite this project (paper in review):  
 ```bibtex
 @misc{xx,
-  title = {Fast Symbolic Integer-Linear Spectra},
+  title = {ZLE},
   author={Luntzel, Jonny and Miller, Abraham},
   year={2024},
   note = {Accessed: (Use the date of access)},
