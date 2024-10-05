@@ -21,7 +21,7 @@ $\text{main\(}A\text{, batchsize, stagger\): }$
   
 &nbsp;&nbsp;&nbsp;&nbsp; $\text{return } \[vec\(\text{coeffs}\[:,0\]\), \\; \dots, \\; vec\(\text{coeffs}\[:,n-1\]\)\]$  
   
-Note: The eigenvalue solver behaves if symbolic eigenvalue coefficients are bounded in $\[-4, \\; 5\]$ for $\text{stagger}=0$, and $\[-44, \\; 45\]$ for $\text{stagger}=1$.
+Note: The eigenvalue solver expects $\lambda$ coefficients to be in $\[-4, \\; 5\]$ for $\text{stagger}=0$, and $\[-44, \\; 45\]$ for $\text{stagger}=1$.
 
 ## $\textbf{Runtime Comparison}$  
 
