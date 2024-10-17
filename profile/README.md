@@ -28,7 +28,7 @@ Note: Eigenvalue solver expects $\lambda$ coefficients to be in $\[-4, \\; 5\]$ 
 ![Image Description](runtime_gh.jpg)
 
 
-Please cite this project:  
+Please cite this [project](https://arxiv.org/abs/2410.09053):  
 ```bibtex
 @misc{ZLE,
       title={Fast Symbolic Integer-Linear Spectra}, 
@@ -39,3 +39,4 @@ Please cite this project:
       primaryClass={math.RA},
       url={https://arxiv.org/abs/2410.09053}
 }
+```
