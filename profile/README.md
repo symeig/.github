@@ -28,12 +28,14 @@ Note: Eigenvalue solver expects $\lambda$ coefficients to be in $\[-4, \\; 5\]$ 
 ![Image Description](runtime_gh.jpg)
 
 
-Please cite this project (paper in review):  
+Please cite this project:  
 ```bibtex
-@misc{xx,
-  title = {ZLE},
-  author={Luntzel, Jonny and Miller, Abraham},
-  year={2024},
-  note = {Accessed: (Use the date of access)},
-  howpublished = {\url{https://github.com/symeig}}
+@misc{ZLE,
+      title={Fast Symbolic Integer-Linear Spectra}, 
+      author={Luntzel, Jonny and Miller, Abraham},
+      year={2024},
+      eprint={2410.09053},
+      archivePrefix={arXiv},
+      primaryClass={math.RA},
+      url={https://arxiv.org/abs/2410.09053}
 }
